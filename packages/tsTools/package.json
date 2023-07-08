@@ -1,0 +1,10 @@
+{
+  "name": "ts-tools",
+  "version": "0.0.1",
+  "main": "src/index.ts",
+  "author": "paikwiki",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  }
+}
