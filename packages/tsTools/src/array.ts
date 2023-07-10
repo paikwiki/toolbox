@@ -32,3 +32,8 @@ export const fill = <T>(arr: T[], value: T): T[] => [...arr].fill(value);
 
 export const join = <T>(arr: T[], separator?: string): string =>
   arr.join(separator);
+
+export const arrayFind = <T>(
+  arr: T[],
+  fn: (value: T) => boolean
+): T | undefined => arr.find(fn);
