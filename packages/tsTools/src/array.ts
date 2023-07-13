@@ -1,3 +1,5 @@
+export const arrayLength = <T>(arr: T[]) => arr.length;
+
 export const map = <T, P>(arr: T[], fn: (item: T) => P): P[] => arr.map(fn);
 
 export const forEach = <T>(arr: T[], fn: (item: T) => void): void => {
