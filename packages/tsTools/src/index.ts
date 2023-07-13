@@ -11,6 +11,7 @@ import {
   fill,
   join,
 } from "./array";
+import { chunk } from "./array/chunk";
 
 export {
   map,
@@ -24,4 +25,5 @@ export {
   some,
   fill,
   join,
+  chunk,
 };
