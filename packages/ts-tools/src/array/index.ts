@@ -17,13 +17,6 @@ export const concat = <T>(arr1: T[], arr2: T[]): T[] => arr1.concat(arr2);
 export const arrayEntries = <T>(arr: T[]): IterableIterator<[number, T]> =>
   arr.entries();
 
-export const copyWithin = <T>(
-  arr: T[],
-  target?: number,
-  start?: number,
-  end?: number
-) => [...arr].copyWithin(target ?? 0, start, end);
-
 export const every = <T>(arr: T[], fn: (item: T) => boolean): boolean =>
   arr.every(fn);
 
