@@ -1,5 +1,5 @@
 {
-  "name": "ts-tools",
+  "name": "@paikwiki/ts-tools",
   "version": "0.0.1",
   "main": "src/index.ts",
   "author": "paikwiki",
