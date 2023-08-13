@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "main": "src/index.ts",
   "author": "paikwiki",
+  "homepage": "https://github.com/paikwiki/toolbox/tree/main/packages/ts-tools",
   "license": "MIT",
   "scripts": {
     "build": "tsc"
